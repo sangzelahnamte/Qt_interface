@@ -11,6 +11,10 @@ Cameleon_hero::~Cameleon_hero()
     qDebug() << this << "destroyed";
 }
 
+void Cameleon_hero::weapon_class() // Overiding the abstract class function
+{
+    qInfo() << "Dagger";
+}
 
 bool Cameleon_hero::corruption_power()
 {

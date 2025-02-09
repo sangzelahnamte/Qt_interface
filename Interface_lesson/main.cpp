@@ -10,6 +10,7 @@ int main(int argc, char *argv[])
     qInfo() << "Fire power: " << hero->fire_power();
     qInfo() << "Healing power: " << hero->heal_power();
     qInfo() << "Corruption power: " << hero->corruption_power();
+    hero->weapon_class();
 
     delete hero; // manually destroying memory
     hero = nullptr;

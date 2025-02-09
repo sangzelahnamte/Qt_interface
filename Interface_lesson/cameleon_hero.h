@@ -13,6 +13,7 @@ class Cameleon_hero : public QObject, public Mage, public Priest, public Warlock
 public:
     explicit Cameleon_hero(QObject *parent = nullptr);
     ~Cameleon_hero();
+    void weapon_class();
 signals:
 
     // Warlock interface

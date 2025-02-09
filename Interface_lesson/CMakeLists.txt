@@ -14,6 +14,10 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
 
 add_executable(Interface_lesson
   main.cpp
+  Mage.h
+  Priest.h
+  Warlock.h
+  cameleon_hero.h cameleon_hero.cpp
 )
 target_link_libraries(Interface_lesson Qt${QT_VERSION_MAJOR}::Core)
 
